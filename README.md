@@ -177,6 +177,47 @@ This special repository showcases:
 
 ### 🏆 Expertise Areas
 
+### 🎓 Professional Certifications
+
+#### 🦀 **Rust Developer - AI/Backend Systems**
+**micro1** | Issued Nov 2025
+
+Senior Rust Developer specializing in AI/Backend systems with 6+ years of extensive experience in designing, developing, and maintaining scalable backend architectures for AI-driven platforms. Expert in building microservices, high-performance APIs, and distributed systems primarily using Rust, ensuring robust, low-latency, and fault-tolerant solutions for production-grade AI workloads and complex data pipelines.
+
+**Skills:** Rust (Programming Language)
+
+---
+
+#### ☕ **Java Programming**
+**Great Learning** | Issued Aug 2025
+
+[View Credential](https://olympus.mygreatlearning.com/courses/12385/modules/items/548920?pb_id=581)
+
+---
+
+#### 🤖 **Academy Accreditation - Generative AI Fundamentals**
+**Databricks** | Issued Oct 2024
+
+**Credential ID:** 118459061
+
+[View Credential](https://credentials.databricks.com/71832635-2ae8-4343-a58c-89943ca7ef5f)
+
+---
+
+#### 💡 **Prompt Engineer**
+**Simplilearn** | Issued Aug 2024
+
+[View Credential](https://simpli-web.app.link/e/xmHCA6ipJMb)
+
+---
+
+#### 📈 **Lean Six Sigma White Belt Certification**
+**Management & Strategy Institute** | Issued Apr 2023
+
+**Credential ID:** 311415664
+
+
+
 ✅ **Systems Programming**: Low-level optimization, memory management, concurrency
 ✅ **Test-Driven Development**: Comprehensive testing strategies and automation
 ✅ **API Design**: RESTful and GraphQL APIs, gRPC services

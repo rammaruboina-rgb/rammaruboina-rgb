@@ -40,11 +40,19 @@ I'm a passionate software engineer specializing in **Rust** and **backend system
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
-### 📈 GitHub Stats
+### 🏆 Core Competencies & Achievements
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rammaruboina-rgb&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+**🎯 Technical Excellence**
+- 🦀 **Rust Systems Programming**: 7+ years building production-grade systems for AI/ML pipelines, trading platforms, and real-time data processing
+- ⚡ **High-Performance Engineering**: Specialized in zero-copy serialization, async/await patterns, and memory-efficient architectures
+- 🔧 **DevOps & Infrastructure**: Expert in Docker, Kubernetes, CI/CD pipelines, and cloud-native deployments (AWS, GCP)
+- 🧪 **Test-Driven Development**: Comprehensive testing strategies including unit, integration, and property-based testing
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rammaruboina-rgb&layout=compact&theme=tokyonight&hide_border=true)
+**💡 Domain Expertise**
+- 🤖 AI/ML Integration: LLM evaluation frameworks, model pipeline optimization, performance benchmarking
+- 📊 Backend Architecture: RESTful APIs, microservices, event-driven systems, database optimization
+- 💹 Trading Systems: Low-latency execution engines, real-time market data processing
+- 🔄 Workflow Automation: Task orchestration, TypeScript tooling, process automation
 
 ### 📦 Featured Projects
 

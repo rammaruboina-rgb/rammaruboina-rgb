@@ -46,6 +46,119 @@ I'm a passionate software engineer specializing in **Rust** and **backend system
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rammaruboina-rgb&layout=compact&theme=tokyonight&hide_border=true)
 
+### 📦 Featured Projects
+
+#### 🦀 [ramakrishnudu-](https://github.com/rammaruboina-rgb/ramakrishnudu-) ⭐ 1
+
+**Rust-based AI & LLM Evaluation Tools, Model Pipelines, and Performance Frameworks**
+
+```rust
+// High-performance LLM evaluation framework
+use tokio::runtime::Runtime;
+use serde::{Deserialize, Serialize};
+
+#[derive(Serialize, Deserialize)]
+pub struct ModelEvaluation {
+    model_name: String,
+    accuracy: f64,
+    latency_ms: u64,
+    throughput: usize,
+}
+
+impl ModelEvaluation {
+    pub async fn benchmark_model(&self) -> Result<EvalMetrics> {
+        // Concurrent testing across multiple scenarios
+        let tasks = vec![
+            evaluate_accuracy(self),
+            measure_latency(self),
+            calculate_throughput(self),
+        ];
+        
+        let results = futures::future::join_all(tasks).await;
+        Ok(aggregate_metrics(results))
+    }
+}
+```
+
+**Key Features:**
+- ⚙️ Automated model evaluation pipelines with Rust+Python FFI
+- 📊 Performance benchmarking and metrics collection
+- 🧪 Property-based testing with `proptest` for edge case discovery
+- 🔒 Sandboxed code execution for LLM-generated snippets
+- 🚀 Async/await architecture for concurrent testing
+
+**Tech Stack:** `Rust` `Tokio` `Actix-web` `Python` `PostgreSQL` `Docker`
+
+**License:** Apache 2.0
+
+---
+
+#### 📨 [-task_workflow----](https://github.com/rammaruboina-rgb/-task_workflow----) ⭐ 1 (Private Template)
+
+**Enterprise Task Automation & Workflow Management System**
+
+```typescript
+// Type-safe workflow automation
+interface TaskWorkflow {
+  id: string;
+  name: string;
+  steps: WorkflowStep[];
+  triggers: TriggerConfig[];
+  status: 'active' | 'paused' | 'completed';
+}
+
+class WorkflowEngine {
+  async executeWorkflow(workflow: TaskWorkflow): Promise<ExecutionResult> {
+    const pipeline = new Pipeline(workflow.steps);
+    
+    // Parallel execution with dependency resolution
+    const results = await pipeline.execute({
+      maxConcurrency: 10,
+      retryPolicy: { attempts: 3, backoff: 'exponential' },
+      timeout: 300000, // 5 minutes
+    });
+    
+    return this.generateReport(results);
+  }
+}
+```
+
+**Key Features:**
+- 🔄 Automated CI/CD workflows with GitHub Actions integration
+- 📄 Template-based task generation
+- 📊 Real-time progress tracking and notifications
+- 🧩 Dependency graph visualization
+- 🔐 Role-based access control (RBAC)
+
+**Tech Stack:** `TypeScript` `Node.js` `GitHub Actions` `Docker` `Jest`
+
+**Use Cases:**
+- Code review automation
+- Deployment pipelines
+- Task scheduling and orchestration
+- Team productivity tracking
+
+---
+
+#### 💻 [Portfolio README](https://github.com/rammaruboina-rgb/rammaruboina-rgb)
+
+**Interactive GitHub Profile with Dynamic Stats**
+
+This special repository showcases:
+- 🌐 Professional profile with live statistics
+- 📊 Dynamic GitHub contribution graphs
+- 🏆 Achievement badges and certifications
+- 🔗 Social media integration
+- ✨ Markdown-driven content management
+
+**Features:**
+- Auto-updating tech stack badges
+- Profile view counter
+- Top languages visualization
+- Responsive design for all devices
+
+
+
 ### 🎯 Current Focus
 
 - 🔨 Building Rust-based AI & LLM evaluation tools

@@ -3,248 +3,211 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ram-maruboina-932597235)
 [![GitHub followers](https://img.shields.io/github/followers/rammaruboina-rgb?style=for-the-badge&logo=github)](https://github.com/rammaruboina-rgb)
 
-## 🚀 Senior Rust Engineer | 7+ Years Experience
 
-> Building Production Systems in AI, Backend, Trading & Real-time Processing
+🚀 **Senior Software Engineer | Rust & Backend Systems | LLM / Agentic AI Evaluation | Distributed Systems | Python | Docker**
 
-I'm a passionate software engineer specializing in **Rust** and **backend systems**, with expertise spanning AI/ML, cryptocurrency trading, and distributed systems. I thrive on solving complex technical challenges and building scalable, high-performance solutions.
+I design, build, and validate production-grade backend systems with a strong focus on performance, correctness, and reproducibility.
 
-### 🔥 What I Do
+My work sits at the intersection of Rust systems engineering and agentic AI evaluation, where I develop high-performance services and rigorously validate AI-generated code across complex, real-world workflows.
 
-- 🦀 **Rust Development**: Production-grade systems with focus on performance, safety, and concurrency
-- 🤖 **AI/ML Engineering**: LLM integration, model evaluation, and AI-powered tools
-- 📊 **Trading Systems**: Algorithmic trading bots and real-time data processing
-- 🏗️ **Backend Architecture**: Scalable APIs, microservices, and distributed systems
-- 🔧 **DevOps & CI/CD**: Automated testing, deployment pipelines, and infrastructure as code
-- 🌐 **Open Source**: Active contributor and technical mentor
-
-### 💻 Tech Stack
-
-#### Languages & Frameworks
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-
-#### Technologies & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-#### AI/ML & Data
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-
-### 🏆 Core Competencies & Achievements
-
-**🎯 Technical Excellence**
-- 🦀 **Rust Systems Programming**: 7+ years building production-grade systems for AI/ML pipelines, trading platforms, and real-time data processing
-- ⚡ **High-Performance Engineering**: Specialized in zero-copy serialization, async/await patterns, and memory-efficient architectures
-- 🔧 **DevOps & Infrastructure**: Expert in Docker, Kubernetes, CI/CD pipelines, and cloud-native deployments (AWS, GCP)
-- 🧪 **Test-Driven Development**: Comprehensive testing strategies including unit, integration, and property-based testing
-
-**💡 Domain Expertise**
-- 🤖 AI/ML Integration: LLM evaluation frameworks, model pipeline optimization, performance benchmarking
-- 📊 Backend Architecture: RESTful APIs, microservices, event-driven systems, database optimization
-- 💹 Trading Systems: Low-latency execution engines, real-time market data processing
-- 🔄 Workflow Automation: Task orchestration, TypeScript tooling, process automation
-
-### 📦 Featured Projects
-
-#### 🦀 [ramakrishnudu-](https://github.com/rammaruboina-rgb/ramakrishnudu-) ⭐ 1
-
-**Rust-based AI & LLM Evaluation Tools, Model Pipelines, and Performance Frameworks**
-
-```rust
-// High-performance LLM evaluation framework
-use tokio::runtime::Runtime;
-use serde::{Deserialize, Serialize};
-
-#[derive(Serialize, Deserialize)]
-pub struct ModelEvaluation {
-    model_name: String,
-    accuracy: f64,
-    latency_ms: u64,
-    throughput: usize,
-}
-
-impl ModelEvaluation {
-    pub async fn benchmark_model(&self) -> Result<EvalMetrics> {
-        // Concurrent testing across multiple scenarios
-        let tasks = vec![
-            evaluate_accuracy(self),
-            measure_latency(self),
-            calculate_throughput(self),
-        ];
-        
-        let results = futures::future::join_all(tasks).await;
-        Ok(aggregate_metrics(results))
-    }
-}
-```
-
-**Key Features:**
-- ⚙️ Automated model evaluation pipelines with Rust+Python FFI
-- 📊 Performance benchmarking and metrics collection
-- 🧪 Property-based testing with `proptest` for edge case discovery
-- 🔒 Sandboxed code execution for LLM-generated snippets
-- 🚀 Async/await architecture for concurrent testing
-
-**Tech Stack:** `Rust` `Tokio` `Actix-web` `Python` `PostgreSQL` `Docker`
-
-**License:** Apache 2.0
+I specialize in distributed systems, model output verification, and structured evaluation of LLM-driven coding systems.
 
 ---
 
-#### 📨 [-task_workflow----](https://github.com/rammaruboina-rgb/-task_workflow----) ⭐ 1 (Private Template)
+# 🔥 What I Do
 
-**Enterprise Task Automation & Workflow Management System**
+## 🦀 Rust & Backend Systems
 
-```typescript
-// Type-safe workflow automation
-interface TaskWorkflow {
-  id: string;
-  name: string;
-  steps: WorkflowStep[];
-  triggers: TriggerConfig[];
-  status: 'active' | 'paused' | 'completed';
-}
+* High-performance backend services using async Rust (Tokio)
+* Memory-safe, concurrent system design
+* API development and distributed service architecture
+* CLI tooling and internal validation frameworks
+* Performance optimization and systems profiling
 
-class WorkflowEngine {
-  async executeWorkflow(workflow: TaskWorkflow): Promise<ExecutionResult> {
-    const pipeline = new Pipeline(workflow.steps);
-    
-    // Parallel execution with dependency resolution
-    const results = await pipeline.execute({
-      maxConcurrency: 10,
-      retryPolicy: { attempts: 3, backoff: 'exponential' },
-      timeout: 300000, // 5 minutes
-    });
-    
-    return this.generateReport(results);
-  }
-}
-```
+## 🤖 LLM & Agentic AI Evaluation
 
-**Key Features:**
-- 🔄 Automated CI/CD workflows with GitHub Actions integration
-- 📄 Template-based task generation
-- 📊 Real-time progress tracking and notifications
-- 🧩 Dependency graph visualization
-- 🔐 Role-based access control (RBAC)
+* Evaluation harness design for coding models
+* Functional validation of AI-generated code
+* Model trajectory analysis and grading
+* Spec compliance verification
+* Structured rubric-based assessments
+* Sandboxed execution environments for generated code
 
-**Tech Stack:** `TypeScript` `Node.js` `GitHub Actions` `Docker` `Jest`
+## 🧪 Validation & Reliability Engineering
 
-**Use Cases:**
-- Code review automation
-- Deployment pipelines
-- Task scheduling and orchestration
-- Team productivity tracking
+* Property-based testing (proptest)
+* Integration and regression testing
+* Log inspection and artifact validation
+* Dockerized reproducible environments
+* Edge-case and failure-mode analysis
 
 ---
 
-#### 💻 [Portfolio README](https://github.com/rammaruboina-rgb/rammaruboina-rgb)
+# 💻 Tech Stack
 
-**Interactive GitHub Profile with Dynamic Stats**
+### Languages
 
-This special repository showcases:
-- 🌐 Professional profile with live statistics
-- 📊 Dynamic GitHub contribution graphs
-- 🏆 Achievement badges and certifications
-- 🔗 Social media integration
-- ✨ Markdown-driven content management
+Rust · Python · TypeScript · SQL · Bash
+
+### Backend & Systems
+
+Distributed Systems · REST APIs · Microservices · PostgreSQL · Redis
+
+### Infrastructure
+
+Docker · Linux · Git · CI/CD
+
+### AI Tooling
+
+LLM Evaluation Pipelines · Model Output Validation · Benchmarking Frameworks · Task Simulation Workflows
+
+---
+
+# 🏗️ Selected Work
+
+## 🦀 Rust-Based LLM Evaluation Framework
+
+High-performance evaluation system for benchmarking and validating AI-generated code.
+
+**Key capabilities:**
+
+* Concurrent model evaluation using async execution
+* Automated accuracy, latency, and throughput benchmarking
+* Sandboxed execution for generated snippets
+* CLI-driven evaluation workflows
+* Structured artifact inspection and test validation
+* Docker-based reproducible testing environments
+
+**Focus:** Functional correctness, model behavior validation, and trajectory grading.
+
+---
+
+## ⚙️ Task & Workflow Validation Engine
+
+Milestone-driven orchestration system for validating multi-step coding tasks.
 
 **Features:**
-- Auto-updating tech stack badges
-- Profile view counter
-- Top languages visualization
-- Responsive design for all devices
 
+* Deterministic task execution pipelines
+* Dependency resolution with parallel execution
+* Retry and timeout controls
+* Execution trace logging
+* Schema-based compliance checks
 
+**Use Cases:**
 
-### 🎯 Current Focus
-
-- 🔨 Building Rust-based AI & LLM evaluation tools
-- 📚 Deep diving into distributed systems and consensus algorithms
-- 🤝 Contributing to open-source Rust projects
-- 💡 Exploring blockchain and DeFi technologies
-- 🎓 Mentoring developers in Rust and systems programming
-
-### 🏆 Expertise Areas
-
-### 🎓 Professional Certifications
-
-#### 🦀 **Rust Developer - AI/Backend Systems**
-**micro1** | Issued Nov 2025
-
-Senior Rust Developer specializing in AI/Backend systems with 6+ years of extensive experience in designing, developing, and maintaining scalable backend architectures for AI-driven platforms. Expert in building microservices, high-performance APIs, and distributed systems primarily using Rust, ensuring robust, low-latency, and fault-tolerant solutions for production-grade AI workloads and complex data pipelines.
-
-**Skills:** Rust (Programming Language)
+* Agentic task simulation
+* Coding workflow validation
+* Model evaluation pipelines
+* Automation testing frameworks
 
 ---
 
-#### ☕ **Java Programming**
-**Great Learning** | Issued Aug 2025
+# 🧠 Core Expertise
 
-[View Credential](https://olympus.mygreatlearning.com/courses/12385/modules/items/548920?pb_id=581)
-
----
-
-#### 🤖 **Academy Accreditation - Generative AI Fundamentals**
-**Databricks** | Issued Oct 2024
-
-**Credential ID:** 118459061
-
-[View Credential](https://credentials.databricks.com/71832635-2ae8-4343-a58c-89943ca7ef5f)
-
----
-
-#### 💡 **Prompt Engineer**
-**Simplilearn** | Issued Aug 2024
-
-[View Credential](https://simpli-web.app.link/e/xmHCA6ipJMb)
+Rust Systems Programming
+Backend Architecture
+Distributed Systems Engineering
+LLM / Agentic AI Evaluation
+Model Output Validation
+Debugging Complex Codebases
+Test-Driven Development
+Dockerized Reproducible Environments
+CLI & Automation Tooling
+Edge Case & Failure Mode Analysis
 
 ---
 
-#### 📈 **Lean Six Sigma White Belt Certification**
-**Management & Strategy Institute** | Issued Apr 2023
+# 🏆 Certifications
 
-**Credential ID:** 311415664
+## 🚀 Advanced Coding & Engineering Mastery
 
+**Coding Speed – Legend Level**
+CodinGame · Issued Feb 2026
 
+**Rust Certification**
+CodinGame · Issued Dec 2025
+Credential ID: 10506953
 
-✅ **Systems Programming**: Low-level optimization, memory management, concurrency
-✅ **Test-Driven Development**: Comprehensive testing strategies and automation
-✅ **API Design**: RESTful and GraphQL APIs, gRPC services
-✅ **Database Design**: Schema optimization, indexing strategies, query performance
-✅ **Security**: Secure coding practices, authentication, authorization
-✅ **Code Review**: Technical evaluation and mentorship
+**Software Engineer Certification**
+HackerRank · Issued Nov 2025
+Credential ID: 456F99EO6179
 
-### 📫 Let's Connect!
-
-- 💼 Open to **remote opportunities** in Rust/Backend/Systems Engineering
-- 🤝 Looking to collaborate on interesting open-source projects
-- 💬 Ask me about Rust, distributed systems, AI/ML, or trading algorithms
-- 📧 Reach out: rammaruboina@gmail.com
-
-### ⚡ Fun Facts
-
-- 🌙 Late-night coding is when I'm most productive
-- 🎯 I believe in engineering excellence, clean code, and robust documentation
-- 🚀 Always learning, always building, always improving
-- 🔍 Code explorer at heart - love diving deep into interesting repositories
+**Problem Solving (Advanced)**
+HackerRank · Issed Nov 2025
+Credential ID: 7OD2FB76C1C8
 
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=rammaruboina-rgb&style=for-the-badge&color=blueviolet" alt="Profile views" />
-</p>
+## 🦀 Systems & Backend Engineering
 
-<p align="center">
-  ⭐️ From <a href="https://github.com/rammaruboina-rgb">rammaruboina-rgb</a>
-</p>
+**Rust Developer – AI/Backend Systems**
+micro1 · Issued Nov 2025
+
+Focused on:
+
+* Scalable backend architecture
+* Distributed systems in Rust
+* Production-grade APIs
+* Fault-tolerant AI workloads
+* High-performance system design
+
+---
+
+## 🤖 AI & Model Foundations
+
+**Academy Accreditation – Generative AI Fundamentals**
+Databricks · Issued Oct 2024
+Credential ID: 118459061
+
+**Prompt Engineer Certification**
+Simplilearn · Issued Aug 2024
+
+---
+
+## 🗄️ Data & API Engineering
+
+**SQL (Advanced)**
+HackerRank · Issued Nov 2025
+Credential ID: ID8ABCDD546608
+
+**REST API Certification**
+HackerRank · Issued Nov 2025
+
+**R Programming Language**
+HackerRank · Issued Nov 2025
+Credential ID: FF868E4819DC
+
+---
+
+## 📊 Engineering & Process
+
+**Lean Six Sigma White Belt**
+Management & Strategy Institute · Issued Apr 2023
+Credential ID: 311415664
+
+**Java Programming**
+Great Learning · Issued Aug 2025
+
+---
+
+# 🎯 Current Focus
+
+* Building scalable Rust-based backend systems
+* Designing structured evaluation pipelines for LLMs
+* Improving validation reliability for AI-generated code
+* Creating reproducible development and testing environments
+
+---
+
+# 📫 Open To
+
+Senior Software Engineering roles focused on:
+
+* Rust Backend Systems
+* LLM / Agentic AI Evaluation
+* Distributed Systems
+* Production-Scale Infrastructure
+
+
+
